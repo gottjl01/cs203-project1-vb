@@ -229,7 +229,7 @@ Namespace PFW.CSIST203.Project1.Tests.Functions
             End Sub
 
             <TestMethod>
-            Public Sub NonZeroRaisedToZero()
+            Public Sub NonZeroRaisedToOne()
                 Assert.AreEqual(1D, Decimal.Parse(MathFunctionObj.Power("1", "1")))
                 Assert.AreEqual(0.5D, Decimal.Parse(MathFunctionObj.Power("0.5", "1")))
                 Assert.AreEqual(-1D, Decimal.Parse(MathFunctionObj.Power("-1", "1")))
