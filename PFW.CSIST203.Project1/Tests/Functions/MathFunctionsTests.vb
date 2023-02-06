@@ -226,7 +226,7 @@ Namespace PFW.CSIST203.Project1.Tests.Functions
 
             <TestMethod>
             Public Sub ZeroRaisedtoZeroPower()
-                Assert.AreEqual(Project1.Functions.MathFunctions.ErrorMessage, MathFunctionObj.Power(0, 0))
+                Assert.AreEqual(1D, Decimal.Parse(MathFunctionObj.Power(0, 0)))
             End Sub
 
             <TestMethod>
